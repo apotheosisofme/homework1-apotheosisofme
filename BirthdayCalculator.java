@@ -1,7 +1,9 @@
-// CIS 2348
-// Jeff Schott PS 1581284
-// Dr. Peggy Lindner
-// Wed. 1-4pm
+/*
+ CIS 2348
+ Jeff Schott PS 1581284
+ Dr. Peggy Lindner
+ Wed. 1-4pm
+*/
 
 import java.util.Scanner;
 
