@@ -50,7 +50,7 @@ public class BirthdayCalculator_GUI_Version {
 
         if ( BMonth >  Month ) {
             age = age -1;
-            JOptionPane.showMessageDialog(null,"Based on the information you provided.....");
+            JOptionPane.showMessageDialog(null,"***Birthday Calculator***");
             JOptionPane.showMessageDialog(null,"Current date:");
             JOptionPane.showMessageDialog(null, Month + "/" + Day + "/" + Year);
 
@@ -61,7 +61,7 @@ public class BirthdayCalculator_GUI_Version {
         }
         else if ( BMonth==Month && BDay==Day ) {
 
-            JOptionPane.showMessageDialog(null,"Based on the information you provided.....");
+            JOptionPane.showMessageDialog(null,"***Birthday Calculator***");
             JOptionPane.showMessageDialog(null,"Current date:");
             JOptionPane.showMessageDialog(null, Month + "/" + Day + "/" + Year);
 
@@ -73,7 +73,7 @@ public class BirthdayCalculator_GUI_Version {
         }
         else if ( BMonth == Month && BDay > Day ) {
             age = age-1;
-            JOptionPane.showMessageDialog(null,"Based on the information you provided.....");
+            JOptionPane.showMessageDialog(null,"***Birthday Calculator***");
             JOptionPane.showMessageDialog(null,"Current date:");
             JOptionPane.showMessageDialog(null, Month + "/" + Day + "/" + Year);
 
@@ -82,7 +82,7 @@ public class BirthdayCalculator_GUI_Version {
             JOptionPane.showMessageDialog(null,"You are " +age+ " years young!");
         }
         else {
-            JOptionPane.showMessageDialog(null,"Based on the information you provided.....");
+            JOptionPane.showMessageDialog(null,"***Birthday Calculator***");
             JOptionPane.showMessageDialog(null,"Current date:");
             JOptionPane.showMessageDialog(null, Month + "/" + Day + "/" + Year);
 
@@ -93,4 +93,3 @@ public class BirthdayCalculator_GUI_Version {
         }
     }
 }
-
